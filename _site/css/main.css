@@ -48,6 +48,9 @@ header, footer  { padding: 1.5vh 3%; }
   text-align: left;
   color: #ffffff;
   padding: 1.5vh 3%;
+  position:relative;
+  background-attachment: fixed;
+  background-position: 50% 0%;
 }
 
 .bg-image {
@@ -70,7 +73,6 @@ h3 {
 }
 
 .text-padding {
-  text-align: left;
   padding: 5%;
 }
 
@@ -130,10 +132,69 @@ a {
   text-decoration: none;
 }
 
+.abn {
+  color: #ffffff;
+}
+
 .one-image {
   background-image: url(../images/benefitsimageone.jpeg);
 }
 
 .two-image {
   background-image: url(../images/benefitsimagetwo.jpeg);
+}
+
+.fleetone-image {
+  background-image: url(../images/sideloader-fleetone-image.JPG);
+}
+
+.fleettwo-image {
+  background-image: url(../images/dropdeck-fleettwo-image.JPG);
+}
+
+.fleetthree-image {
+  background-image:url(../images/tippingskel-fleetthree-image.JPG);
+}
+
+.fleetfour-image {
+  background-image:url(../images/tautliners-fleetfour-image.JPG);
+}
+
+.fleetfive-image {
+  background-image:url(../images/retractableskel-fleetfive-image.JPG);
+}
+
+.fleetsix-image {
+  background-image:url(../images/fixedskel-fleetsix-image.JPG);
+}
+
+.fleetseven-image {
+  background-image:url(../images/lightweightskel-fleetseven-image.JPG);
+}
+
+.fleeteight-image {
+  background-image:url(../images/flattops-fleeteight-image.jpeg);
+}
+
+/* remove padding to get images to take up whole space on page  */
+.benefits {
+  text-align: center;
+  margin: 2rem;
+  padding: 5%;
+}
+
+.services {
+  text-align: center;
+  margin: 2rem;
+  padding: 5%;
+}
+
+.blockquote {
+  text-align:center;
+  margin: 2rem;
+  padding 3%;
+}
+
+.quote {
+  padding: 2%;
 }
