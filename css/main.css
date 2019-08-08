@@ -42,6 +42,14 @@ a {
   text-decoration: none;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.no-margin {
+  margin-bottom: 0;
+}
+
 header {
   color: #ffffff;
   /* padding: 5px; */
@@ -74,9 +82,9 @@ header, footer  {
 }
 
 .banner {
-  background-image: url(../images/homepagebanner.jpeg);
+  background-image: url(../images/homepagebanner.jpg);
   background-size: cover;
-  min-height: 100vh;
+  min-height: 90vh;
   text-align: left;
   color: #ffffff;
   padding: 1.5vh 3%;
@@ -181,8 +189,8 @@ button {
 /* remove padding to get images to take up whole space on page  */
 .benefits {
   text-align: center;
-  margin: 2rem;
-  padding: 5%;
+  margin: 1rem;
+  padding: 3%;
   border: 1rem;
   border-color: #091540;
 }
@@ -193,14 +201,14 @@ button {
 
 .services {
   text-align: center;
-  margin: 2rem;
-  padding: 5%;
+  margin: 1rem;
+  padding: 3%;
 }
 
 .blockquote {
-  text-align:center;
-  margin: 2rem;
-  padding 5%;
+  /* text-align:center; */
+  margin: 0 0.5rem;
+  padding: 1%;
 }
 
 .quote {
